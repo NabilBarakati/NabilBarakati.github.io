@@ -261,6 +261,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  -moz-border-radius: 4px;
  border-radius: 4px;
  width: 100%;
+ border-radius: 50%;
 }
 .info{
 
@@ -395,22 +396,22 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-top: -20px;
 }
 /* Icon Box */
-.sny-icon{
+.any-icon{
   display: block;
   margin-bottom: 1em;
   text-align: center;
 }
-.sny-icon i{
+.any-icon i{
   display: inline-block;
   font-size: 60px;
 }
-.sny-icon-content{
+.any-icon-content{
   text-align: center;
 }
-.sny-icon-content h4{
+.any-icon-content h4{
   margin-bottom:6px;
 }
-.sny-icon-content p{
+.any-icon-content p{
   margin-bottom: 0px;
 }
 /* Buttons */
