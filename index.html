@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -81,12 +81,10 @@
                                     Software Engineer
                                 </h4>
                                 <p>
-                                    I'm Nabil, a 4A Computer Science | Business Option student currently studying at the University of Waterloo.
+                                    I'm Nabil, a Computer Science | Business Option graduate from the University of Waterloo.
                                     <br/>
                                     Check out my <a href="images/resume2019.pdf">Resume </a>!
-                                    <br />
-                                    You can see some of my projects <a href="https://github.com/NabilBarakati" target="_blank"> here </a>!
-                                </p>
+                                    </p>
                             </div>
                         </div>
                         <div class="g1">
@@ -111,28 +109,28 @@
                         <div class="contact-info">
                           <div class="g1">
                             <div class="item-box clearfix">
-                              <i class="icon-envelope"></i>
+                              <i class="fa fa-envelope"></i>
                               <div class="item-data">
-                                <h3><a href="mailto:sunny@mrova.com">nm.barakati@gmail.com</a></h3>
+                                <h3><a href="mailto:nm.barakati@gmail.com">nm.barakati@gmail.com</a></h3>
                                 <p>Email Address</p>
                               </div>
                             </div>
                           </div>
                           <div class="g1">
                             <div class="item-box clearfix">
-                              <i class="icon-facebook"></i>
+                              <i class="fa fa-linkedin"></i>
                               <div class="item-data">
-                                <h3><a href="https://web.facebook.com/nabil.barakati.10?ref=bookmarks">nabil.barakati</a></h3>
-                                <p>Facebook Profile</p>
+                                <h3><a target="_blank" href="https://www.linkedin.com/in/nabil-barakati/">nabil-barakati</a></h3>
+                                <p>LinkedIn Profile</p>
                               </div>
                             </div>
                           </div>
                           <div class="g1">
                             <div class="item-box clearfix">
-                              <i class="icon-twitter"></i>
+                              <i class="fa fa-github"></i>
                               <div class="item-data">
-                                <h3><a href="https://twitter.com/NabilBarakati">@NabilBarakati</a></h3>
-                                <p>Twitter</p>
+                                <h3><a target="_blank" href="https://github.com/NabilBarakati">NabilBarakati</a></h3>
+                                <p>Github</p>
                               </div>
                             </div>
                           </div>
@@ -151,7 +149,7 @@
                               <li>
                                   <h5>
                                       University of Waterloo
-                                  </h5><span class="label label-success">2015-2020</span>
+                                  </h5><span class="label label-success">Sept 2015- April 2020</span>
                                   <p>
                                       - Strong understanding of effective and efficient algorithm design paradigms
                                   <br/>
@@ -169,39 +167,54 @@
                                 Work Experience
                             </h3>
                             <ul class="no-list work">
-                              <li>
-                                  <h4>Lifion</h4>
-                                  <h5>
-                                      Infrastructure Engineer - Platform Team
-                                  </h5><span class="label label-info">Jan 2019- May 2019</span>
-                                  <p>
-                                      - Led the organizational shift to Canary Deployments through Kubernetes and Envoy
-                                      <br/>
-                                      - Reduced operational cost by $500k yearly (AWS resources, monitoring and engineering costs) by upgrading staging environment to use Canary Deployment
-                                      <br/>
-                                      - Enabled engineering teams to rapidly prototype new features by establishing self-service pipeline parallelizing deployment of both production and canary services
-                                  </p>
+                                <li>
+                                    <h4>Lime</h4>
+                                    <h5>
+                                        Software Engineer - Data  Engineering
+                                    </h5><span class="label label-success">Jan 2019- May 2019</span>
+                                    <p>
+                                        - Fully architected and implemented new RBAC for Lime’s Data Warehouse
+                                        <br/>
+                                        - Eliminated 10000s of privilege duplication across role inheritance to ensure the principle of least privilege was upheld and to enhance security
+                                        <br/>
+                                        - Developed Airflow jobs that trigger upon new schema creation which generates the required privileges based on requester and assigns them to user assigned roles
+                                        <br/>
+                                        - Reduced On-Call hours designated to role management by 90%
+                                    </p>
+                                  </li>
+                                <li>
+                                    <h4>Lifion</h4>
+                                    <h5>
+                                        Infrastructure Engineer - Platform Team
+                                    </h5><span class="label label-success">Jan 2019- May 2019</span>
+                                    <p>
+                                        - Led the organizational shift to Canary Deployments through Kubernetes and Envoy
+                                        <br/>
+                                        - Reduced operational cost by $500k yearly (AWS resources, monitoring and engineering costs) by upgrading staging environment to use Canary Deployment
+                                        <br/>
+                                        - Enabled engineering teams to rapidly prototype new features by establishing self-service pipeline parallelizing deployment of both production and canary services
+                                    </p>
                                 </li>
-                              <li>
-                                  <h4>Athos</h4>
-                                  <h5>
-                                      Software Engineer - Data Processing
-                                  </h5><span class="label label-info">May 2018- Aug 2018</span>
-                                  <p>
-                                      - Developed network authentication web app for Athos Athlete Hub device which improved connection success rate by 30% and also greatly improved UI/UX
-                                      <br/>
-                                      - Significantly enhanced security by developing a new access control layer restricting access to facilities’ networks; preventing unauthorized access to restricted APIs
-                                      <br/>
-                                      - Created granular logging system greatly increasing monitoring capabilities
-                                      <br/>
-                                      - Reduced new client onboarding engineering hours by 90% through designing and implementing a pipeline involving several SQL scripts
-                                  </p>
+                                <li>
+                                    <h4>Athos</h4>
+                                    <h5>
+                                        Software Engineer - Data Engineering
+                                    </h5><span class="label label-sucess">May 2018- Aug 2018</span>
+                                    <p>
+                                        - Developed network authentication web app for Athos Athlete Hub device which improved connection success rate by 30% and also greatly improved UI/UX
+                                        <br/>
+                                        - Significantly enhanced security by developing a new access control layer restricting access to facilities’ networks; preventing unauthorized access to restricted APIs
+                                        <br/>
+                                        - Created granular logging system greatly increasing monitoring capabilities
+                                        <br/>
+                                        - Reduced new client onboarding engineering hours by 90% through designing and implementing a pipeline involving several SQL scripts
+                                    </p>
                                 </li>
-                              <li>
+                                <li>
                                   <h4>TribalScale</h4>
                                   <h5>
                                       Agile Software Engineer - Web &amp; Voice
-                                  </h5><span class="label label-info">Sept 2017- Dec 2017</span>
+                                  </h5><span class="label label-sucess">Sept 2017- Dec 2017</span>
                                   <p>
                                       - Architected distributed cache that decreased load times by 5x for airmilesshops.ca
                                       <br/>
@@ -216,7 +229,7 @@
                                       <h4>Capital One</h4>
                                       <h5>
                                           Software Engineer Web &amp; Infrastructure
-                                      </h5><span class="label label-info">Jan 2017- April 2017</span>
+                                      </h5><span class="label label-sucess">Jan 2017- April 2017</span>
                                       <p>
                                           - Architected web platform infrastructure, serving over 1.5M users monthly
                                           <br/>
@@ -229,26 +242,25 @@
                                           - Leveraged Contentful to modularize reusable components used to modernize over 30 webpages
 
                                       </p>
-                                  </li>
+                                </li>
                                 <li>
                                     <h4>Flare</h4>
                                     <h5>
                                         Web &amp; Android Developer - Fullstack Team
-                                    </h5><span class="label label-info">July 2016- Aug 2016</span>
+                                    </h5><span class="label label-sucess">July 2016- Aug 2016</span>
                                     <p>
                                         - Created a newsfeed for a web application that allows customers to create and see large events happening in their local areas
                                         <br/>
                                         - Provided consultation for the enhancement of their UI/UX on both their web and mobile applications
                                         <br/>
                                         - Root caused and patched issues that were major blockers for their initial release
-
                                     </p>
                                 </li>
                                 <li>
                                     <h4>Ontario Medical Assosciation</h4>
                                     <h5>
                                     Front End Developer - High Velocity Team
-                                    </h5><span class="label label-info">May 2016 - Aug 2016</span>
+                                    </h5><span class="label label-sucess">May 2016 - Aug 2016</span>
                                     <p>
                                        - Encouraged and guided the company to adopt Agile methodologies with Scrum sprints and the utilization of daily stand-ups, backlogs as well onboarding them with Slack to help improve communication
                                        <br/>
@@ -273,76 +285,89 @@
                                     Skills
                                 </h3>
                                 <h5>
-                                    Front-End Experience
+                                    Back-End Experience
                                 </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 85%"><span>Javascript</span></span>
+                                <div class="meter ">
+                                    <span style="width: 70%"><span>C++</span></span>
                                 </div>
-                                <div class="meter carrot">
-                                    <span style="width: 85%"><span>Typescript</span></span>
+                                <div class="meter ">
+                                    <span style="width: 85%"><span>Python</span></span>
                                 </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 80%"><span>Angular2</span></span>
+                                <div class="meter ">
+                                    <span style="width: 70%"><span>Java</span></span>
                                 </div>
-                                <div class="meter midnight">
-                                    <span style="width: 80%"><span>React</span></span>
+                                <div class="meter ">
+                                    <span style="width: 85%"><span>C</span></span>
                                 </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 90%"><span>HTML</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>SQL</span></span>
                                 </div>
-                                <div class="meter pomengrate">
-                                    <span style="width: 90%"><span>Jquery</span></span>
+                                <div class="meter ">
+                                    <span style="width: 85%"><span>NodeJS</span></span>
                                 </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 90%"><span>Bootstrap</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>Terraform</span></span>
                                 </div>
-                                <div class="meter midnight">
-                                    <span style="width: 70%"><span>CSS</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>GraphQL</span></span>
                                 </div>
+                                
 
                                 <div class="break"></div>
                                 <h5>
-                                    Language Experience
+                                    Tools &amp; Frameworks
                                 </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 75%"><span>C</span></span>
+                                <div class="meter ">
+                                    <span style="width: 75%"><span>AWS</span></span>
                                 </div>
-                                <div class="meter carrot">
-                                    <span style="width: 80%"><span>C++</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>Kubernetes</span></span>
                                 </div>
-                                <div class="meter pomengrate">
-                                    <span style="width: 80%"><span>Python</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>Docker</span></span>
                                 </div>
-                                <div class="meter midnight">
-                                    <span style="width: 70%"><span>MySQL</span></span>
+                                <div class="meter ">
+                                    <span style="width: 70%"><span>Git</span></span>
                                 </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 75%"><span>NodeJS</span></span>
+                                <div class="meter ">
+                                    <span style="width: 75%"><span>Jenkins</span></span>
+                                </div>
+                                <div class="meter ">
+                                    <span style="width: 75%"><span>Ambassador</span></span>
+                                </div>
+                                <div class="meter ">
+                                    <span style="width: 75%"><span>Istio</span></span>
+                                </div>
+                                <div class="meter ">
+                                    <span style="width: 75%"><span>Envoy</span></span>
                                 </div>
                                 <div class="break"></div>
                                 <h5>
-                                    Back-End Experience
+                                    Front-End Experience
                                 </h5>
-                                <div class="meter pomengrate">
-                                    <span style="width: 70%"><span>GraphQL</span></span>
+                                <div class="meter ">
+                                    <span style="width: 85%"><span>Javascript</span></span>
                                 </div>
-                                <div class="meter midnight">
-                                    <span style="width: 85%"><span>AWS</span></span>
+                                <div class="meter ">
+                                    <span style="width: 85%"><span>Typescript</span></span>
                                 </div>
-                                <div class="meter emerald">
-                                    <span style="width: 70%"><span>GCP</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>Angular2</span></span>
                                 </div>
-                                <div class="meter carrot">
-                                    <span style="width: 85%"><span>Jenkins</span></span>
+                                <div class="meter ">
+                                    <span style="width: 80%"><span>React</span></span>
                                 </div>
-                                <div class="meter pomengrate">
-                                    <span style="width: 80%"><span>Kubernetes</span></span>
+                                <div class="meter ">
+                                    <span style="width: 90%"><span>HTML</span></span>
                                 </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 85%"><span>Docker</span></span>
+                                <div class="meter ">
+                                    <span style="width: 90%"><span>Jquery</span></span>
                                 </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 80%"><span>Terraform</span></span>
+                                <div class="meter ">
+                                    <span style="width: 90%"><span>Bootstrap</span></span>
+                                </div>
+                                <div class="meter ">
+                                    <span style="width: 70%"><span>CSS</span></span>
                                 </div>
 
                             </div>
